@@ -6,11 +6,11 @@
   "use strict";
 
   var PATHS = [
-    { key: "dev", href: "/ai-development/", exit: "Exit 1", label: "AI & Development", tint: "teal" },
-    { key: "music", href: "/music/", exit: "Exit 2", label: "Music Performance", tint: "rose" },
-    { key: "consulting", href: "/consulting-leadership/", exit: "Exit 3", label: "Consulting & Leadership", tint: "green" }
+    { key: "dev", href: "ai-development/", exit: "Exit 1", label: "AI & Development", tint: "teal" },
+    { key: "music", href: "music/", exit: "Exit 2", label: "Music Performance", tint: "rose" },
+    { key: "consulting", href: "consulting-leadership/", exit: "Exit 3", label: "Consulting & Leadership", tint: "green" }
   ];
-  var HOME = { key: "home", href: "/", exit: "Re-enter", label: "Back on the highway", tint: "sodium" };
+  var HOME = { key: "home", href: ".", exit: "Re-enter", label: "Back on the highway", tint: "sodium" };
 
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
